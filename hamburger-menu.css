@@ -1,8 +1,3 @@
-:root{
-    --black: #000;
-    --trans: all .3s ease-in-out;
-}
-
 .hamburger-menu {
     width: 25px;
     height: 20px;  
@@ -21,11 +16,11 @@
     border-radius: 100px;
     left: 0;
     top: 0;
-    background-color: var(--black);
-    transition: var(--trans);
-    -webkit-transition: var(--trans);
-    -moz-transition: var(--trans);
-    -o-transition: var(--trans);
+    background-color: #000;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
 
 .hamburger-menu span.line:before {
