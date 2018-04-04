@@ -1,0 +1,55 @@
+:root{
+    --black: #000;
+    --trans: all .3s ease-in-out;
+}
+
+.hamburger-menu {
+    width: 25px;
+    height: 20px;  
+    position:relative;
+    margin-top:20px;
+    cursor: pointer; 
+}
+
+.hamburger-menu span.line,
+.hamburger-menu span.line:before,
+.hamburger-menu span.line:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    border-radius: 100px;
+    left: 0;
+    top: 0;
+    background-color: var(--black);
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -o-transition: var(--trans);
+}
+
+.hamburger-menu span.line:before {
+    top: 7px;
+}
+
+.hamburger-menu span.line:after {
+    top: 14px;
+}
+
+.hamburger-menu span.line.equis {
+    background-color: transparent;
+}
+
+.hamburger-menu span.line.equis:before,
+.hamburger-menu span.line.equis:after {
+    height: 4px;
+    top: 7px;
+}
+
+.hamburger-menu span.line.equis:before{ 
+    transform: rotate(-45deg);
+}
+
+.hamburger-menu span.line.equis:after{ 
+    transform: rotate(45deg);
+}
