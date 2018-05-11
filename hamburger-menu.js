@@ -1,3 +1,5 @@
+console.log('hola');
+
 const body = document.querySelector('body');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const linksMenu = document.querySelectorAll('.menu a');
